@@ -151,6 +151,7 @@ paginate: 5
 
 kramdown:
   input: GFM
+  toc_levels:    1..6
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
