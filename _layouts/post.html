@@ -32,12 +32,12 @@ layout: base
       {% endif %}
 
       <article role="main" class="blog-post">
-        {{ content }}
         <aside id="sidebar">
-        <div id="toc" class="toc-article toc-fixed">
-        {% include toc.html html=content %}
-        </div>
-      </aside>
+          <div id="toc" class="toc-article toc-fixed">
+            {% include toc.html html=content %}
+          </div>
+        </aside>
+        {{ content }}
       </article>
 
       {% if page.tags.size > 0 %}
