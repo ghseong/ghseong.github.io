@@ -1,3 +1,4 @@
+[toc]
 ---
 layout: post
 title: Test markdown
