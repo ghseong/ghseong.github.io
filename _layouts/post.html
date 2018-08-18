@@ -31,12 +31,12 @@ layout: base
         </div>
       {% endif %}
 
+      <aside id="sidebar">
+        <div id="toc" class="toc-article toc-fixed">
+          {% include toc.html html=content %}
+        </div>
+      </aside>
       <article role="main" class="blog-post">
-        <aside id="sidebar">
-          <div id="toc" class="toc-article toc-fixed">
-            {% include toc.html html=content %}
-          </div>
-        </aside>
         {{ content }}
       </article>
 
