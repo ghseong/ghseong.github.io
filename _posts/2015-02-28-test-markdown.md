@@ -1,4 +1,4 @@
-[toc]
+[TOC]
 ---
 layout: post
 title: Test markdown
