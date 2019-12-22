@@ -9,10 +9,10 @@ gem "github-pages", '165', group: :jekyll_plugins
 # Happy Jekylling!
 
 
-# group :jekyll_plugins, :local do
-gem "jekyll-paginate-v2", "~> 1.7"
-gem "jekyll-sitemap"
-# end
+group :jekyll_plugins, :local do
+  gem "jekyll-paginate-v2", "~> 1.7"
+  gem "jekyll-sitemap"
+end
 
 group :local do
   gem 'wdm', '>= 0.1.0' if Gem.win_platform?
