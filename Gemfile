@@ -9,12 +9,8 @@ gem "github-pages", '165', group: :jekyll_plugins
 # Happy Jekylling!
 
 
-group :jekyll_plugins, :local do
+group :jekyll_plugins, :local, 'https://github.com/ghseong/ghseong.github.io.git' do
   gem "jekyll-paginate-v2", "~> 1.7"
-  gem "jekyll-sitemap"
-end
-git 'https://github.com/ghseong/ghseong.github.io.git' do
-  gem "jekyll-paginate-v2"
   gem "jekyll-sitemap"
 end
 
