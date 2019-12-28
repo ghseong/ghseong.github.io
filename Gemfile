@@ -13,6 +13,10 @@ group :jekyll_plugins, :local do
   gem "jekyll-paginate-v2", "~> 1.7"
   gem "jekyll-sitemap"
 end
+git 'https://github.com/ghseong/ghseong.github.io.git' do
+  gem "jekyll-paginate-v2", "~> 1.7"
+  gem "jekyll-sitemap"
+end
 
 group :local do
   gem 'wdm', '>= 0.1.0' if Gem.win_platform?
