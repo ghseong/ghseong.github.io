@@ -7,8 +7,9 @@ gem "github-pages", '165', group: :jekyll_plugins
 # enable tzinfo-data for local build
 # gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 # Happy Jekylling!
-git 'https://github.com/ghseong/ghseong.github.io.git' do
-  gem "jekyll", ">= 3.6.3"
+
+if ENV["JEKYLL_VERSION"]
+  gem "jekyll", "~> #{ENV["JEKYLL_VERSION"]}"
 end
 
 group :jekyll_plugins, :local, 'https://github.com/ghseong/ghseong.github.io.git' do
