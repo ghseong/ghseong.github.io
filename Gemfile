@@ -14,7 +14,7 @@ group :jekyll_plugins, :local do
   gem "jekyll-sitemap"
 end
 git 'https://github.com/ghseong/ghseong.github.io.git' do
-  gem "jekyll-paginate-v2", "~> 1.7"
+  gem "jekyll-paginate-v2"
   gem "jekyll-sitemap"
 end
 
