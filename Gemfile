@@ -9,7 +9,7 @@ gem "github-pages", '165', group: :jekyll_plugins
 # Happy Jekylling!
 
 if ENV["JEKYLL_VERSION"]
-  gem "jekyll", "~> #{ENV["JEKYLL_VERSION"]}"
+  gem "jekyll", ">= 3.6.3"
 end
 
 group :jekyll_plugins, :local, 'https://github.com/ghseong/ghseong.github.io.git' do
