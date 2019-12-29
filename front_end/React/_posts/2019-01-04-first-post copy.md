@@ -1,6 +1,7 @@
 ---
 layout: post
 title: First post!
+subtitle: First post!
 image: /img/hello_world.jpeg
 ---
 

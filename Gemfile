@@ -13,7 +13,7 @@ if ENV["JEKYLL_VERSION"]
   gem "jekyll", ">= 3.6.3"
 end
 
-gem "jekyll-paginate-v2", "~> 1.7"
+gem "jekyll-paginate"
 gem "jekyll-sitemap"
 
 group :local do
