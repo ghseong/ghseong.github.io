@@ -25,10 +25,11 @@ future: true
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  News: "News"
   Front End:
     - Vue: "front_end/Vue/"
     - React: "front_end/React/"
-  #   - Webpack: "front_end/Webpack/"
+    - Webpack: "front_end/Webpack/"
   #   - Nightwatch: "front_end/Nightwatch/"
   #   - Javascript: "front_end/Javascript/"
   #   - ECMAScript6: "front_end/ECMAScript6(ES6)/"
@@ -217,6 +218,8 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
+  - mkCate.sh
+  - mkPost.sh
 
 permalink: ':collection/:path/'
 paginate: 5
