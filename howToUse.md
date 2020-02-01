@@ -11,7 +11,7 @@
 ## 포스트 추가
 1. 포스트 파일 만들기 : `./mkPost [PostName] [CategoryPath]`
 ```
-./mkCate.sh Today .\News
+./mkPost.sh Today .\News
 ```
 
 ## local win10 에 설치
